@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Nodes/Pedras/Pedrinhas.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Nodes/Slimes/Slimes.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Nodes/Player/Player.tscn" type="PackedScene" id=3]
+
+[node name="Teste" type="Node2D"]
+
+[node name="Pedrinhas" parent="." instance=ExtResource( 1 )]
+position = Vector2( 249.506, 300.209 )
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 806.249, 537.115 )
+
+[node name="Slimes" parent="." instance=ExtResource( 2 )]
+position = Vector2( 887.867, 112.246 )

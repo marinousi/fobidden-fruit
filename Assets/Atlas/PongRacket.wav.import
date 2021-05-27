@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/PongRacket.wav-a69a244e9b7e895e3e5043269b119ed4.sample"
+
+[deps]
+
+source_file="res://Assets/Atlas/PongRacket.wav"
+dest_files=[ "res://.import/PongRacket.wav-a69a244e9b7e895e3e5043269b119ed4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
